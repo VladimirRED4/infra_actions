@@ -15,9 +15,8 @@ jobs:
     - uses: actions/setup-node@v1
       name: 'setup node'
       with:
-        node-version: '13.x'    
-
-
+        node-version: '16.x'    
+    
     - name: Install dependencies
       run: | 
         # обновление pip
